@@ -4,11 +4,25 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+   
     <title>Document</title>
 </head>
 <body>
-    <div class="container">
-    <form class="FormLogin" action="#" method="post">
+    <div id="app">
+
+        <nav>
+            <ul class="menu">
+                <li><a href="index.html">Home | </a></li>
+              <li><a href="login.html">Login | </a></li>
+              <li><a href="#">Criar Conta | </a></li>
+              <li><a href="#">Cadastro de Cliente | </a></li>
+              <li><a href="#">Pagamento</a></li>
+            </ul>
+          </nav>
+
+
+    <form class="formLogin" action="#" method="post">
         <h1>Fazer login</h1>
         <label>Email:
             <input type="email" required>
@@ -18,7 +32,11 @@
         </label>
         <button>Entrar</button>
         <a href="#">Criar conta</a>
+
+
+        
     </form>
 </div>
+<script type="module" src="js/main.js"></script>
 </body>
 </html>

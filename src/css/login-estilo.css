@@ -1,0 +1,26 @@
+
+
+.formLogin{
+    background-color: white;
+    width: 550px;
+    padding: 25px;
+    border-radius: 10px;
+    display: flex;
+     align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 50px;
+     
+}
+
+.formLogin h1{
+    color:#3390E1;
+}
+
+.formLogin input::placeholder{
+    color: #8ebee7
+  }
+  
+  .formLogin label{
+    width: 100%;
+  }
