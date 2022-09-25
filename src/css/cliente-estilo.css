@@ -1,0 +1,45 @@
+.formCliente{
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+
+.formCliente h1{
+    color: #3390E1;
+}
+
+.dados{
+    display: flex;
+    justify-content: space-between;
+}
+.tam{
+    width: 30%;
+}
+.endereco{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.cep{
+    width: 30%;
+}
+.end{
+    width: 68%;
+}
+
+
+/* Cidades e Estados */
+
+.nascimento{
+    display: flex;
+    flex-direction: row;
+}
+
+
+/* BUTTON */
+
+.formCliente button{
+    width: 20%;
+}
