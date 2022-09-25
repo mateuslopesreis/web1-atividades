@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <title>Document</title>
+</head>
+<body>
+    <div id="app">
+        <form class="formCliente" action="#" method="post">
+            <h1>Cadastro de Clientes</h1>
+            <label>Nome:
+                <input type="text">
+            </label>
+        <div class="dados">
+            <label>RG:
+                <input type="text" required>
+            </label>
+            <label>CPF:
+                <input type="text" required>
+            </label>
+            <label >Data de Nascimento:
+                <input type="date" required>
+            </label>
+        </div>    
+        <div class="endereco">
+            <label>CEP:
+                <input type="number" required>
+            </label>
+            <label>Endereço:
+                <input type="text" required>
+            </label>
+
+        </div>   
+        <div class="nascimento">
+            <label>Cidade:
+                <select name="cidades" id="cidades">
+               <option value="NV">Naviraí</option>
+               <option value="CG">Campo-Grande</option>
+               <option value="NA">Nova-Andradina</option>
+               <option value="DR">Dourados</option>
+            </select>
+            </label>
+        </div>    
+            <button>Salvar</button>
+        </form>  
+    </div>
+    <script type="module" src="js/main.js"></script>
+    
+</body>
+</html>
