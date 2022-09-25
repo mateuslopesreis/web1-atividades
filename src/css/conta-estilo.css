@@ -1,0 +1,24 @@
+.formCriarConta{
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.formCriarConta h1{
+    color:#3390E1;
+}
+
+.nomes{
+    display: flex;
+    justify-content: space-between;
+}
+
+.senhas{
+    display: flex;
+    justify-content: space-between;
+}
+
+.formCriarConta button{
+    width: 30%;
+}
