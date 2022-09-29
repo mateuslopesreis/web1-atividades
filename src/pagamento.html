@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="app">
+
+        <nav>
+            <ul class="menu">
+                <li><a href="index.html">Home | </a></li>
+              <li><a href="login.html">Login | </a></li>
+              <li><a href="conta.html">Criar Conta | </a></li>
+              <li><a href="cliente.html">Cadastro de Cliente | </a></li>
+              <li><a href="pagamento.html">Pagamento</a></li>
+            </ul>
+          </nav>
+
+          <form class="formPagamento" action="#" method="post">
+            <h1>Detalhes do Pagamento</h1>
+            <div class="dados">
+            <label>Numero do Cartao:
+                <input type="text" required>
+            </label>
+
+            <label>Nome:
+                <input type="text" required>
+            </label>    
+        </div>
+            <div class="info">
+                <label>Data de Vencimento
+                    <input type="date" required>
+                </label>
+
+                <label>Código de Segurança(CCV):
+                    <input type="text" required>
+                </label>
+
+            </div>
+            <div class="credit-card">
+                <div class="credit-card-front">
+                    <div class="card-type">
+                        Cartão de Crédito
+                    </div>
+        
+                    <img class="flag" src="./visa-logo.png">
+        
+                    <div class="card-number">
+                        #### #### #### ####
+                    </div>
+                    <div class="card-holder">
+                        Fulano de Tal
+                    </div>
+                    <div class="expiration">
+                        06/2021
+                    </div>
+                </div>
+                <div class="credit-card-back">
+                    <div class="stripe"></div>
+                    <div class="ccv-block">
+                        123
+                    </div>
+                    <div class="flag">
+                        <img class="flag" src="./visa-logo.png">
+                    </div>
+                </div>
+            </div>
+          </form>
+
+    </div>
+    <script type="module" src="js/main.js"></script>
+</body>
+</html>
