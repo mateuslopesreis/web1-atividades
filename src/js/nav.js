@@ -17,6 +17,7 @@ const nav =/*html*/`
             <li><a class="primary" href="./lista-tarefas.html">Lista de Tarefas</a></li> <!-- Item do submenu-->
             <li><a class="primary" href="./conta.html">Criar Conta</a></li> <!-- Item do submenu-->
             <li><a class="primary" href="./cliente.html">Cadastro de Clientes</a></li> <!-- Item do submenu-->
+            <li><a class="primary" href="./pagamento.html">Detalhes de Pagamento</a></li> <!-- Item do submenu-->
           </ul>
           <!-- fim do Sub Menu-->
         </details>
