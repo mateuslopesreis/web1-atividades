@@ -9,26 +9,24 @@
 </head>
 <body>
 
-    <div id="app">
-        <nav>
-            <ul class="menu">
-                <li><a href="index.html">Home | </a></li>
-              <li><a href="login.html">Login | </a></li>
-              <li><a href="conta.html">Criar Conta | </a></li>
-              <li><a href="cliente.html">Cadastro de Cliente | </a></li>
-              <li><a href="#">Pagamento</a></li>
-            </ul>
+   
+        <nav class="container-fluid" id="menu">
+            
           </nav>
 
+          <main class="container form-container">
+            <!-- Conteúdo Aqui-->
+            <article>
+               
         <form class="formCriarConta" action="#" method="post">
             <h1>Crie sua Conta</h1>
             <div class="nomes">
                 <label >Nome:
-                    <input type="text" required>
+                    <input id="mudaLargura" type="text" required>
                 </label>
 
                 <label>Sobrenome:
-                    <input type="text" required>
+                    <input id="mudaLargura" type="text" required>
                 </label>
             </div>
 
@@ -37,18 +35,19 @@
                 </label>
             <div class="senhas">
                 <label>Senha:
-                    <input type="password" required>
+                    <input id="mudaLargura" type="password" required>
                 </label>
                 <label >Confirmar:
-                    <input type="password" required>
+                    <input id="mudaLargura" type="password" required>
                 </label>
             </div>
             <button>Criar Conta</button>
             <a href="#">Fazer Login</a>
         </form>
 
-    </div>
-    <script type="module" src="js/main.js" ></script>
+            </article>
+          </main>
+    <script type="module" src="js/conta.js" ></script>
     
 </body>
 </html>
